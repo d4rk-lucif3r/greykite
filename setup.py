@@ -16,7 +16,7 @@ requirements = [
     "holidays-ext>=0.0.7",
     "matplotlib>=3.4.1",
     "numpy>=1.19.2",
-    "osqp==0.6.1",  # osqp>=0.6.2 uses qdldl which could cause install failure.
+    "osqp>=0.6",  # osqp>=0.6.2 uses qdldl which could cause install failure.
     "overrides>=2.8.0",
     "pandas>=1.1.3, <1.3",  # pandas 1.3 changes behavior of bfill, ffill
     "patsy>=0.5.1",
